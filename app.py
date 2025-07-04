@@ -17,6 +17,7 @@ snapshot = pd.read_csv('snapshots.csv',index_col=0)
 
 
 app = Dash()
+server = app.server
 
 demand = loads.index.values.tolist()
 demand.insert(0,'All')
