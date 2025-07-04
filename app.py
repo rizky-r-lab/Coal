@@ -7,13 +7,13 @@ import numpy as np
 
 import pandas as pd
 
-buses = pd.read_csv('tes/buses.csv',index_col=0)
-stores = pd.read_csv('tes/stores.csv',index_col=0)
-loads = pd.read_csv('tes/loads.csv',index_col=0)
-loads_p_set = pd.read_csv('tes/loads-p_set.csv', index_col=0)
-links = pd.read_csv('tes/links.csv',index_col=0)
-links_p0 = pd.read_csv('tes/links-p0.csv',index_col=0)
-snapshot = pd.read_csv('tes/snapshots.csv',index_col=0)
+buses = pd.read_csv('buses.csv',index_col=0)
+stores = pd.read_csv('stores.csv',index_col=0)
+loads = pd.read_csv('loads.csv',index_col=0)
+loads_p_set = pd.read_csv('loads-p_set.csv', index_col=0)
+links = pd.read_csv('links.csv',index_col=0)
+links_p0 = pd.read_csv('links-p0.csv',index_col=0)
+snapshot = pd.read_csv('snapshots.csv',index_col=0)
 
 
 app = Dash()
